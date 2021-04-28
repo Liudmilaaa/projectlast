@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<style>
+   h1 {
+    text-indent: 20px;
+   }
+   .row {
+    background: url('images/fon.jpg');
+   }
+  </style>
+<h1 >О нас</h1>
+<div class="row" align="center">
+    <div class="col-6 col-md">
+      <h5>Лучше закажите еду здесь</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="https://eda.yandex.ru/">Яндекс.Еда</a></li>
+        <li><a class="link-secondary" href="https://www.delivery-club.ru/moscow">DeliveryClub</a></li>
+        <li><a class="link-secondary" href="https://mcdonalds.ru/">McDonalds</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md">
+      <h5>Контакты</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC">Пенсильвания-авеню, 1600</a></li>
+        <li><a class="link-secondary" href="https://ru.wikipedia.org/wiki/%D0%98%D1%81%D0%BF%D0%BE%D1%80%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD">+7(999)-99-00</a></li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}

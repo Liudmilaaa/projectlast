@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<h1 align="center">Добро пожаловать!</h1>
+    <div class="container">
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Россия</h4>
+          </div>
+          <div class="card-body">
+            <img src="static/images/littl.jpg">
+            <ul class="list-unstyled mt-3 mb-4">
+
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="/rus">Посмотреть</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Италия</h4>
+          </div>
+          <div class="card-body">
+            <img src="static/images/pizza.jpg">
+            <ul class="list-unstyled mt-3 mb-4">
+
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="/italy">Посмотреть</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Грузия</h4>
+          </div>
+          <div class="card-body">
+            <img src="static/images/hinkali.jpg">
+            <ul class="list-unstyled mt-3 mb-4">
+
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="/gruz">Посмотреть</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+{% endblock %}

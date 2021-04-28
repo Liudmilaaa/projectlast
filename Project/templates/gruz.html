@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<head>
+    <meta charset="UTF-8">
+    <title>Грузинская кухня</title>
+<style>
+    img {
+    margin-left: 20px;
+    }
+</style>
+    <h1 style="margin-bottom: 50px">Грузинская кухня</h1>
+</head>
+<body>
+<h2 style="margin-left: 30px">Хинкали с бараниной</h2>
+<img src="static/images/hinka.jpg" style="margin-top: 40px">
+
+<a class="btn btn-lg btn-primary" href="/reg" role="button" style="margin-left: 20px">В корзину</a>
+</body>
+{% endblock %}
